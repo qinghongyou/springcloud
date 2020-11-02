@@ -23,6 +23,7 @@
       <module>cloud-provider-hystrix-payment8001</module>
     <module>cloud-consumer-feign-hystrix-order80</module>
       <module>cloud-consumer-hystrix-dashboard9001</module>
+      <module>cloud-gateway-gateway9527</module>
   </modules>
   <packaging>pom</packaging>
 
@@ -43,6 +44,7 @@
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <maven.compiler.source>1.8</maven.compiler.source>
     <maven.compiler.target>1.8</maven.compiler.target>
+    <java.version>1.8</java.version>
     <junit.version>4.12</junit.version>
     <log4j.version>1.2.17</log4j.version>
     <lombok.version>1.16.18</lombok.version>
