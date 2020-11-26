@@ -18,12 +18,14 @@
         <module name="cloud-consumerzk-order80" />
         <module name="seata-storage-service2002" />
         <module name="cloud-demo-test" />
+        <module name="snowflake" />
         <module name="cloud-providerconsul-payment8006" />
         <module name="cloud-config-client-3366" />
         <module name="cloud-consumer-feign-hystrix-order80" />
         <module name="cloud-stream-rabbitmq-consumer8802" />
         <module name="cloudalibaba-config-nacos-client3377" />
         <module name="cloud-eureka-server7001" />
+        <module name="interviewquestions" />
         <module name="cloud-gateway-gateway9527" />
         <module name="seata-order-service2001" />
         <module name="cloud-stream-rabbitmq-provider8801" />
