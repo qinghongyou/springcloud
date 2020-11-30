@@ -11,12 +11,14 @@ public class Singleton6 {
 
     }
 
-    private static class Inner{
+    private static class Inner {
         private static final Singleton6 INSTANCE = new Singleton6();
     }
 
-    public static Singleton6 getInstance(){
-        retrun Inner.INSTANCE;
+    public static Singleton6 getInstance() {
+        return Inner.INSTANCE;
     }
+
+
 
 }
