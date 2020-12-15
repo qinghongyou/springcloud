@@ -61,8 +61,12 @@
     <file url="file://$PROJECT_DIR$/cloudalibaba-provider-payment9004/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cloudalibaba-sentinel-service8401/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cloudalibaba-sentinel-service8401/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/gmail-interface/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/gmail-interface/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/interviewquestions/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/interviewquestions/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/order-service-consumer/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/order-service-consumer/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/seata-account-service2003/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/seata-account-service2003/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/seata-order-service2001/src/main/java" charset="UTF-8" />
@@ -71,6 +75,8 @@
     <file url="file://$PROJECT_DIR$/seata-storage-service2002/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/snowflake/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/snowflake/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/user-service-provider/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/user-service-provider/src/main/resources" charset="UTF-8" />
     <file url="PROJECT" charset="UTF-8" />
   </component>
 </project>

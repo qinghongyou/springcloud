@@ -43,6 +43,9 @@
       <module>seata-account-service2003</module>
       <module>snowflake</module>
       <module>interviewquestions</module>
+      <module>user-service-provider</module>
+    <module>order-service-consumer</module>
+    <module>gmail-interface</module>
   </modules>
   <packaging>pom</packaging>
 
