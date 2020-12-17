@@ -16,5 +16,5 @@
     <dubbo:service interface="com.xiao.gmall.service.UserService" ref="userServiceImpl"></dubbo:service>
 
     <!--服务的实现-->
-    <bean id="userServiceImpl" class="com.xiao.gmall.service.impl.UserServiceImpl"></bean>
+    <bean id="userServiceImpl" class="com.xiao.gmall.service.UserServiceImpl"></bean>
 </beans>
