@@ -48,6 +48,7 @@
     <module>gmail-interface</module>
       <module>boot-user-service-provider</module>
     <module>boot-order-service-consumer</module>
+      <module>boot-redis</module>
   </modules>
   <packaging>pom</packaging>
 

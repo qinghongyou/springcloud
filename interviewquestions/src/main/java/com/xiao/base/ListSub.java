@@ -6,9 +6,12 @@ import java.util.List;
 
 public class ListSub {
     public static void main(String[] args){
+        System.out.println("go .......");
         List<String> list = new ArrayList<String>();
         for(int i=0;i<1500;i++){
-            list.add("JavaWeb编程词典 "+i);
+            User1 user = new User1(i, "name"+i, i, "man");
+
+            list.add(user.toString());
         }
           //向列表中添加数据
         //list.add("Java编程词典");  //向列表中添加数据
@@ -21,11 +24,15 @@ public class ListSub {
         while(its.hasNext()){  //循环遍历集合
             System.out.print(its.next()+"、");  //输出集合内容
         }
-        List<String>subList = list.subList(0,1000);  //获取子列表
+        long startTime = System.currentTimeMillis();
+        List<String> subList = list.subList(0,1000);  //获取子列表
+        long endTime = System.currentTimeMillis();
+        System.out.println("time :"+(endTime-startTime));
         System.out.println("\n截取集合中部分元素:");
         Iterator it = subList.iterator();
         while(it.hasNext()){
             System.out.print(it.next()+"、");
         }
+        System.out.println("time ......");
     }
 }
