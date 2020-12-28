@@ -26,7 +26,7 @@ public class MainTodo {
 
     public static void main(String [] args ) throws Exception {
         long startTime = System.currentTimeMillis();
-        for(int i=0;i<1500;i++){
+        for(int i=0;i<600;i++){
             System.out.println("i=  "+i);
             httpPost();
         }
