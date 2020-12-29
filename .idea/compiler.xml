@@ -7,6 +7,7 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="cloud-provider-hystrix-payment8001" />
         <module name="cloudalibaba-consumer-nacos-order83" />
         <module name="cloudalibaba-provider-payment9003" />
         <module name="cloudalibaba-provider-payment9002" />
@@ -40,11 +41,10 @@
         <module name="cloud-config-client-3355" />
         <module name="cloud-consumer-hystrix-dashboard9001" />
         <module name="cloud-consumer-order80" />
-        <module name="user-service-provider" />
         <module name="cloudalibaba-sentinel-service8401" />
         <module name="cloud-consumerconsul-order80" />
         <module name="gmail-interface" />
-        <module name="cloud-provider-hystrix-payment8001" />
+        <module name="user-service-provider" />
         <module name="boot-redis" />
         <module name="seata-account-service2003" />
         <module name="cloud-config-center-3344" />
