@@ -15,9 +15,9 @@ public class JedisPoolUtil {
             synchronized (JedisPoolUtil.class) {
                 if (null == jedisPool) {
                     JedisPoolConfig poolConfig = new JedisPoolConfig();
-                    poolConfig.setMaxActive(1000);
+                    poolConfig.setMaxTotal(1000);
                     poolConfig.setMaxIdle(32);
-                    poolConfig.setMaxWait(100 * 1000);
+                    poolConfig.setMaxWaitMillis(100 * 1000);
                     poolConfig.setTestOnBorrow(true);
 
                     jedisPool = new JedisPool(poolConfig, "127.0.0.1", 6379);
