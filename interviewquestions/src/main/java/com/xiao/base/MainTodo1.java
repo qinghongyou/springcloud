@@ -6,27 +6,20 @@ import org.apache.commons.httpclient.HttpClient;
 import org.apache.commons.httpclient.methods.InputStreamRequestEntity;
 import org.apache.commons.httpclient.methods.PostMethod;
 import org.apache.commons.httpclient.methods.RequestEntity;
-import org.apache.commons.httpclient.params.HttpMethodParams;
-import org.apache.http.HttpResponse;
-import org.apache.http.client.methods.HttpPost;
-import org.omg.Messaging.SYNC_WITH_TRANSPORT;
 
 import java.io.ByteArrayInputStream;
 import java.io.IOException;
 import java.io.InputStream;
-import java.net.URL;
 import java.text.SimpleDateFormat;
 import java.util.Date;
-import java.util.HashMap;
-import java.util.Map;
 import java.util.Random;
 
-public class MainTodo {
+public class MainTodo1 {
 
 
     public static void main(String [] args ) throws Exception {
         long startTime = System.currentTimeMillis();
-        for(int i=0;i<100;i++){
+        for(int i=0;i<10;i++){
             System.out.println("i=  "+i);
             httpPost();
         }
@@ -70,59 +63,21 @@ public class MainTodo {
         arg0.put("ztxfl", "01");
         arg0.put("param1", "ff99959c-0aaf-4635-a97f-6bf19f5def82");
         arg0.put("param2", "cc66959c-0aaf-4635-a97f-6bf19f5def82");
-        int j = (int)((Math.random()*8)+1);
-        System.out.println("j="+j);
-        if(j==1){
-            arg0.put("appName", "slxt");
-            arg0.put("modelName", "slxt");
-            arg0.put("targets", "{\"LoginName\":\"youqinghong\"}");
-            arg0.put("docCreator", "{\"LoginName\":\"landray01\"}");
-        } else if(j==2){
-            arg0.put("appName", "H3");
-            arg0.put("modelName", "H3");
-            arg0.put("targets", "{\"LoginName\":\"lvzhichao01\"}");
-            arg0.put("docCreator", "{\"LoginName\":\"landray01\"}");
-        } else if(j==3){
-            arg0.put("appName", "BPMS");
-            arg0.put("modelName", "BPMS");
-            arg0.put("targets", "{\"LoginName\":\"zycshiyan\"}");
-            arg0.put("docCreator", "{\"LoginName\":\"youqinghong\"}");
-        } else if(j==4){
-            arg0.put("appName", "BPMSOSC");
-            arg0.put("modelName", "BPMSOSC");
-            arg0.put("targets", "{\"LoginName\":\"xiongqingchun10\"}");
-            arg0.put("docCreator", "{\"LoginName\":\"youqinghong\"}");
-        } else if(j==5){
-            arg0.put("appName", "myerp");
-            arg0.put("modelName", "myerp");
-            arg0.put("targets", "{\"LoginName\":\"landray01\"}");
-            arg0.put("docCreator", "{\"LoginName\":\"xiongqingchun10\"}");
-        } else if(j==6){
-            arg0.put("appName", "NC6");
-            arg0.put("modelName", "NC6");
-            arg0.put("targets", "{\"LoginName\":\"yuting27\"}");
-            arg0.put("docCreator", "{\"LoginName\":\"youqinghong\"}");
-        } else if(j==7){
-            arg0.put("appName", "myerp");
-            arg0.put("modelName", "myerp");
-            arg0.put("targets", "{\"LoginName\":\"chenqianbin\"}");
-            arg0.put("docCreator", "{\"LoginName\":\"yuting27\"}");
-        } else {
-            arg0.put("appName", "NC6");
-            arg0.put("modelName", "NC6");
-            arg0.put("targets", "{\"LoginName\":\"zengjiajun01\"}");
-            arg0.put("docCreator", "{\"LoginName\":\"chenqianbin\"}");
-        }
+        arg0.put("appName", "NC6");
+        arg0.put("modelName", "NC6");
+        arg0.put("targets", "{\"LoginName\":\"youqinghong\"}");
+        arg0.put("docCreator", "{\"LoginName\":\"landray01\"}");
+
+
         arg0.put("modelId", todoString(12));
-        arg0.put("subject", "测试长度测试长度测试"+j);
+        arg0.put("subject", "测试长度测试长度测试0111");
         arg0.put("deadlineR", "");
         arg0.put("deadlineY", "");
         arg0.put("deadline","1");
         arg0.put("isdeadline","1");
         SimpleDateFormat sdf1=new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
         Date date = new Date();
-        arg0.put("createTime", sdf1.format(date));// yyyy-MM-dd HH:mm:ss
-        //arg0.put("createTime", "2021-01-13 15:38:01");
+        arg0.put("createTime", "2021-01-13 12:38:01");// yyyy-MM-dd HH:mm:ss
         arg0.put("mobileLink", "http://www.baidu.com");
         params.put("arg0",arg0);
         String paramsJson = JSON.toJSONString(params); // 将参数转换为json字符串
